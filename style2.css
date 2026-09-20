@@ -1,0 +1,21 @@
+body  
+{
+   font-family: pacifico;
+   background-image:image-set("imagens/fundoDeFlores.png");
+   /*background-repeat: no-repeat;*/
+   background-size: cover;
+}
+
+#mensagem
+{
+    font-size: 30px;
+}
+
+#foto
+{
+    width: 350px;
+    height: 250px;
+    outline: 5px solid rgb(59, 28, 5);
+    outline-style:double;
+    float: left;
+}
