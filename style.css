@@ -1,0 +1,72 @@
+body  
+{
+   font-family: pacifico;
+   background-image:image-set("imagens/fundoDeFlores.png");
+   /*background-repeat: no-repeat;*/
+   background-size: cover;
+}
+
+#mensagem
+{
+    font-size: 30px;
+}
+
+.titulo
+{
+    left: 175px;
+    font-weight: bolder;
+    color: darkcyan;
+    position: relative;
+}
+
+.formu
+{
+    margin: 3px;
+    background-color: aqua;
+    border-style: double;
+    border-radius: 2px;
+    border-color: darkblue;
+}
+
+.formu:hover
+{
+    border-color:green;
+}
+
+#mamao
+{
+    color:green;
+}
+#envia
+{
+    background-color: gray;
+    border-color: darkblue;
+    border-style: double;
+    color: white;
+    border-radius: 3px;
+}
+
+.paragrafito
+{
+    margin-left: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    color:darkblue;
+}
+
+.cachorro
+{
+    width: 200px;
+    height: 150px;
+    outline: 5px solid rgb(59, 28, 5);
+    outline-style:double;
+    float: left;
+}
+
+.textoCachorro
+{
+    margin: 5px;
+    padding: 5px;
+    clear: left;
+}
+
